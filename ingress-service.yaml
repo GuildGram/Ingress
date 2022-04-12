@@ -9,7 +9,7 @@ spec:
     - host: guildgram.com
       http:
         paths:
-          - path: /characters/getAll
+          - path: /characters
             pathType: Prefix
             backend:
               service:
